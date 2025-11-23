@@ -40,15 +40,15 @@ a:hover{
  }
 
 /* Header styles, increased the padding on top of the headers to create some more visual space */
-header{
+header h1{
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 760px;
 
-	padding-top: 70px;
-
-	/* Centers the header text */
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+ 
+	/* Center-aligns the text */
 	text-align: center;
-
-	/* Sets the font family for the body*/
-	font-family: 'Roboto', sans-serif;
 
 }
 
